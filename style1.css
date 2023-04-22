@@ -1,0 +1,75 @@
+body{
+    background-image: url("tp3.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#content{
+    padding-left: 990px;
+    margin-top: 50px;
+    
+}
+.input-group {
+    height: 50px;
+    width:400px;
+    padding: 0px;
+    margin-left: 1000px;
+    border: 2px solid black;
+}
+.nav{
+    background-color: black;
+}
+p{
+    margin:20px;
+    margin-left: 1000px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.list-group{
+    height :45px;
+    width: 500px;
+    margin-left: 1000px;
+}
+.container{
+    color:aliceblue
+}
+h2{
+    padding-top: 25px;
+    margin-left: 50px;
+    color: rgb(223, 238, 93);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black ;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #ddb31c;
+}
+
